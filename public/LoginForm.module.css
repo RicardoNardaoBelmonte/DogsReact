@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.form{
+    margin-bottom: 2rem;
+}
+
+.lost{
+    display: inline-block;
+    color: #666;
+    padding: 0.5rem 0;
+    line-height: 1;
+}
+
+.lost::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: currentColor;
+    display: block;
+}
+
+.register{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.register p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.subtitle{
+    font-family: 'spectral', georgia;
+    line-height: 1;
+    font-size: 2rem;
+}
+
+.subtitle::after{
+    content: '';
+    display: block;
+    background: #ddd;
+    height: 0.5rem;
+    width: 3rem;
+    border-radius: 2rem;
+}
